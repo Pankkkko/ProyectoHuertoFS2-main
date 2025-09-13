@@ -89,7 +89,7 @@ function eliminarProducto(id) {
         if (indice !== -1) {
             productos.splice(indice, 1);
             mostrarProductos();
-            alert('Producto eliminado correctamente');
+            alert('Se ha eliminado el producto correctamente');
         }
     }
 }

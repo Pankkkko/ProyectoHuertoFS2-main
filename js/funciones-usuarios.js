@@ -148,7 +148,7 @@ function editarUsuario(id) {
 
 // Eliminar usuario
 function eliminarUsuario(id) {
-    if (confirm('¿Estás seguro de que quieres eliminar este usuario?')) {
+    if (confirm('¿Estas seguro de que quieres eliminar este usuario?')) {
         const indice = usuarios.findIndex(usuario => usuario.id === id);
         if (indice !== -1) {
             usuarios.splice(indice, 1);
